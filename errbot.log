@@ -1,0 +1,629 @@
+2018-10-23 15:58:46,865 INFO     errbot.specific_plugin_manager storage search paths {'/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/storage'}
+2018-10-23 15:58:46,867 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-10-23 15:58:46,867 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/storage/shelf.py)
+2018-10-23 15:58:46,867 INFO     errbot.specific_plugin_manager 	    Memory  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/storage/memory.py)
+2018-10-23 15:58:46,867 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-10-23 15:58:46,867 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2018-10-23 15:58:46,868 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2018-10-23 15:58:46,871 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2018-10-23 15:58:46,871 DEBUG    errbot.storage            Opening storage 'repomgr'
+2018-10-23 15:58:46,871 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/repomgr.db
+2018-10-23 15:58:46,885 DEBUG    errbot.storage            Opening storage 'core'
+2018-10-23 15:58:46,885 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/core.db
+2018-10-23 15:58:46,890 INFO     errbot.specific_plugin_manager backends search paths {'/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends'}
+2018-10-23 15:58:46,894 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-10-23 15:58:46,894 INFO     errbot.specific_plugin_manager 	       IRC  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/irc.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/hipchat.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	      Text  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/text.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/xmpp.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/graphic.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	      Null  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/null.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	      Test  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/test.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	     Slack  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/slack.py)
+2018-10-23 15:58:46,895 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/telegram_messenger.py)
+2018-10-23 15:58:46,895 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2018-10-23 15:58:46,895 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2018-10-23 15:58:46,898 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2018-10-23 15:58:46,970 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2018-10-23 15:58:46,970 DEBUG    errbot.core               ErrBot init.
+2018-10-23 15:58:46,970 DEBUG    errbot.backends.base      Backend init.
+2018-10-23 15:58:46,975 DEBUG    errbot.core               created a thread pool of size 10.
+2018-10-23 15:58:46,976 DEBUG    errbot.backends.text      Text Backend Init.
+2018-10-23 15:58:46,976 DEBUG    errbot.backends.text      Bot username set at @errbot.
+2018-10-23 15:58:46,984 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2018-10-23 15:58:46,986 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2018-10-23 15:58:46,990 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2018-10-23 15:58:46,990 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2018-10-23 15:58:46,991 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2018-10-23 15:58:46,992 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2018-10-23 15:58:46,992 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2018-10-23 15:58:46,993 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2018-10-23 15:58:47,006 DEBUG    errbot.core               Initializing backend storage
+2018-10-23 15:58:47,006 DEBUG    errbot.storage            Opening storage 'text_backend'
+2018-10-23 15:58:47,006 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/text_backend.db
+2018-10-23 15:58:47,019 DEBUG    errbot.plugin_manager     All plugin roots:
+2018-10-23 15:58:47,019 DEBUG    errbot.plugin_manager     -> /home/dbunadi/Documents/HAROBOT/plugins/err-example
+2018-10-23 15:58:47,019 DEBUG    errbot.plugin_manager     Add /home/dbunadi/Documents/HAROBOT/plugins/err-example to sys.path
+2018-10-23 15:58:47,019 DEBUG    errbot.plugin_manager     -> /home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins
+2018-10-23 15:58:47,020 DEBUG    errbot.plugin_manager     Add /home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins to sys.path
+2018-10-23 15:58:47,020 DEBUG    errbot.plugin_manager     /home/dbunadi/Documents/HAROBOT/plugins/err-example has no requirements.txt file
+2018-10-23 15:58:47,020 DEBUG    errbot.plugin_manager     /home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins has no requirements.txt file
+2018-10-23 15:58:47,027 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2018-10-23 15:58:47,117 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2018-10-23 15:58:47,118 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2018-10-23 15:58:47,119 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2018-10-23 15:58:47,122 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2018-10-23 15:58:47,122 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2018-10-23 15:58:47,123 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2018-10-23 15:58:47,124 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2018-10-23 15:58:47,125 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2018-10-23 15:58:47,127 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2018-10-23 15:58:47,163 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-10-23 15:58:47,164 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2018-10-23 15:58:47,165 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2018-10-23 15:58:47,166 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2018-10-23 15:58:47,166 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2018-10-23 15:58:47,167 INFO     errbot.core               Activate internal commands
+2018-10-23 15:58:47,167 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-10-23 15:58:47,167 INFO     errbot.plugin_manager     Activate plugin: Example
+2018-10-23 15:58:47,167 DEBUG    errbot.plugin_manager     Plugin Example has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,168 INFO     errbot.plugin_manager     Activating Example with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,168 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /home/dbunadi/Documents/HAROBOT/plugins/err-example/templates]
+2018-10-23 15:58:47,168 DEBUG    errbot.botplugin          Init storage for Example
+2018-10-23 15:58:47,168 DEBUG    errbot.storage            Opening storage 'Example'
+2018-10-23 15:58:47,168 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Example.db
+2018-10-23 15:58:47,179 DEBUG    errbot.core               Adding command : tryme -> tryme
+2018-10-23 15:58:47,179 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2018-10-23 15:58:47,179 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-10-23 15:58:47,180 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,180 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,180 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,180 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2018-10-23 15:58:47,180 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-10-23 15:58:47,180 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-10-23 15:58:47,181 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,181 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,181 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,181 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2018-10-23 15:58:47,181 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2018-10-23 15:58:47,181 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/ChatRoom.db
+2018-10-23 15:58:47,185 DEBUG    errbot.core               Adding command : room_create -> room_create
+2018-10-23 15:58:47,185 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2018-10-23 15:58:47,185 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2018-10-23 15:58:47,185 DEBUG    errbot.core               Adding command : room_join -> room_join
+2018-10-23 15:58:47,185 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2018-10-23 15:58:47,185 DEBUG    errbot.core               Adding command : room_list -> room_list
+2018-10-23 15:58:47,186 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2018-10-23 15:58:47,186 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2018-10-23 15:58:47,186 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-10-23 15:58:47,186 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-10-23 15:58:47,186 DEBUG    errbot.plugin_manager     Plugin CommandNotFoundFilter has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,186 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,186 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,187 DEBUG    errbot.botplugin          Init storage for CommandNotFoundFilter
+2018-10-23 15:58:47,187 DEBUG    errbot.storage            Opening storage 'CommandNotFoundFilter'
+2018-10-23 15:58:47,187 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/CommandNotFoundFilter.db
+2018-10-23 15:58:47,191 DEBUG    errbot.core               Adding command filter: cnf_filter
+2018-10-23 15:58:47,191 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-10-23 15:58:47,191 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-10-23 15:58:47,191 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,191 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,192 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,192 DEBUG    errbot.botplugin          Init storage for Health
+2018-10-23 15:58:47,192 DEBUG    errbot.storage            Opening storage 'Health'
+2018-10-23 15:58:47,192 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Health.db
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : restart -> restart
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : status -> status
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : status_load -> status_load
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2018-10-23 15:58:47,197 DEBUG    errbot.core               Adding command : uptime -> uptime
+2018-10-23 15:58:47,197 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-10-23 15:58:47,197 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-10-23 15:58:47,197 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,197 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,198 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,198 DEBUG    errbot.botplugin          Init storage for Utils
+2018-10-23 15:58:47,198 DEBUG    errbot.storage            Opening storage 'Utils'
+2018-10-23 15:58:47,198 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Utils.db
+2018-10-23 15:58:47,207 DEBUG    errbot.core               Adding command : echo -> echo
+2018-10-23 15:58:47,207 DEBUG    errbot.core               Adding command : history -> history
+2018-10-23 15:58:47,207 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2018-10-23 15:58:47,207 DEBUG    errbot.core               Adding command : render_test -> render_test
+2018-10-23 15:58:47,207 DEBUG    errbot.core               Adding command : whoami -> whoami
+2018-10-23 15:58:47,208 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-10-23 15:58:47,208 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-10-23 15:58:47,208 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,208 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,208 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,208 DEBUG    errbot.botplugin          Init storage for Plugins
+2018-10-23 15:58:47,208 DEBUG    errbot.storage            Opening storage 'Plugins'
+2018-10-23 15:58:47,209 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Plugins.db
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : repos -> repos
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2018-10-23 15:58:47,225 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2018-10-23 15:58:47,225 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-10-23 15:58:47,226 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-10-23 15:58:47,226 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,226 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,226 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,226 DEBUG    errbot.botplugin          Init storage for ACLs
+2018-10-23 15:58:47,226 DEBUG    errbot.storage            Opening storage 'ACLs'
+2018-10-23 15:58:47,226 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/ACLs.db
+2018-10-23 15:58:47,231 DEBUG    errbot.core               Adding command filter: acls
+2018-10-23 15:58:47,231 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-10-23 15:58:47,231 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-10-23 15:58:47,231 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,231 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,231 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,231 DEBUG    errbot.botplugin          Init storage for Backup
+2018-10-23 15:58:47,231 DEBUG    errbot.storage            Opening storage 'Backup'
+2018-10-23 15:58:47,231 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Backup.db
+2018-10-23 15:58:47,236 DEBUG    errbot.core               Adding command : backup -> backup
+2018-10-23 15:58:47,236 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-10-23 15:58:47,236 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-10-23 15:58:47,236 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,236 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,236 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,237 DEBUG    errbot.botplugin          Init storage for Flows
+2018-10-23 15:58:47,237 DEBUG    errbot.storage            Opening storage 'Flows'
+2018-10-23 15:58:47,237 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Flows.db
+2018-10-23 15:58:47,241 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2018-10-23 15:58:47,241 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2018-10-23 15:58:47,241 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2018-10-23 15:58:47,241 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2018-10-23 15:58:47,241 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2018-10-23 15:58:47,241 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2018-10-23 15:58:47,241 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-10-23 15:58:47,241 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-10-23 15:58:47,241 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,241 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,242 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,242 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-10-23 15:58:47,242 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-10-23 15:58:47,242 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-10-23 15:58:47,242 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-10-23 15:58:47,242 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-10-23 15:58:47,242 DEBUG    errbot.plugin_manager     Plugin TextCmds has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,242 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,242 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,243 DEBUG    errbot.botplugin          Init storage for TextCmds
+2018-10-23 15:58:47,243 DEBUG    errbot.storage            Opening storage 'TextCmds'
+2018-10-23 15:58:47,243 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/TextCmds.db
+2018-10-23 15:58:47,247 DEBUG    errbot.core               Adding command : asadmin -> asadmin
+2018-10-23 15:58:47,247 DEBUG    errbot.core               Adding command : asuser -> asuser
+2018-10-23 15:58:47,247 DEBUG    errbot.core               Adding command : inperson -> inperson
+2018-10-23 15:58:47,247 DEBUG    errbot.core               Adding command : inroom -> inroom
+2018-10-23 15:58:47,247 DEBUG    errbot.core               Adding command : ml -> ml
+2018-10-23 15:58:47,247 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-10-23 15:58:47,248 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-10-23 15:58:47,248 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 15:58:47,248 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 15:58:47,248 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 15:58:47,248 DEBUG    errbot.botplugin          Init storage for Help
+2018-10-23 15:58:47,248 DEBUG    errbot.storage            Opening storage 'Help'
+2018-10-23 15:58:47,248 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Help.db
+2018-10-23 15:58:47,252 DEBUG    errbot.core               Adding command : about -> about
+2018-10-23 15:58:47,252 DEBUG    errbot.core               Adding command : apropos -> apropos
+2018-10-23 15:58:47,252 DEBUG    errbot.core               Adding command : help -> help
+2018-10-23 15:58:47,252 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-10-23 15:58:47,253 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2018-10-23 15:58:47,253 INFO     errbot.core               
+2018-10-23 15:58:47,253 INFO     errbot.core               Notifying connection to all the plugins...
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Example
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2018-10-23 15:58:47,253 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on CommandNotFoundFilter
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Health
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Utils
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Backup
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Flows
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on TextModeCmds
+2018-10-23 15:58:47,253 DEBUG    errbot.core               Trigger callback_connect on Help
+2018-10-23 15:58:47,253 INFO     errbot.core               Plugin activation done.
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Example
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Health
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Utils
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on ACLs
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Backup
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Flows
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on TextCmds
+2018-10-23 15:58:47,254 DEBUG    errbot.core               Triggering callback_presence on Help
+2018-10-23 15:58:55,363 DEBUG    errbot.core               *** frm = @CHANGE_ME
+2018-10-23 15:58:55,363 DEBUG    errbot.core               *** username = CHANGE_ME
+2018-10-23 15:58:55,363 DEBUG    errbot.core               *** text = hi
+2018-10-23 15:58:55,364 DEBUG    errbot.core               Triggering callback_message on Example
+2018-10-23 15:58:55,364 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2018-10-23 15:58:55,364 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter
+2018-10-23 15:58:55,364 DEBUG    errbot.core               Triggering callback_message on Health
+2018-10-23 15:58:55,364 DEBUG    errbot.core               Triggering callback_message on Utils
+2018-10-23 15:58:55,364 DEBUG    errbot.core               Triggering callback_message on Plugins
+2018-10-23 15:58:55,365 DEBUG    errbot.core               Triggering callback_message on ACLs
+2018-10-23 15:58:55,365 DEBUG    errbot.core               Triggering callback_message on Backup
+2018-10-23 15:58:55,365 DEBUG    errbot.core               Triggering callback_message on Flows
+2018-10-23 15:58:55,365 DEBUG    errbot.core               Triggering callback_message on TextCmds
+2018-10-23 15:58:55,365 DEBUG    errbot.core               Triggering callback_message on Help
+2018-10-23 15:59:02,421 DEBUG    errbot.core               *** frm = @CHANGE_ME
+2018-10-23 15:59:02,421 DEBUG    errbot.core               *** username = CHANGE_ME
+2018-10-23 15:59:02,422 DEBUG    errbot.core               *** text = !help
+2018-10-23 15:59:02,422 DEBUG    errbot.plugins.ACLs       Check help for ACLs.
+2018-10-23 15:59:02,422 INFO     errbot.plugins.ACLs       Matching ACL {} against username @CHANGE_ME for command Help:help
+2018-10-23 15:59:02,422 INFO     errbot.plugins.ACLs       Check if help is admin only command.
+2018-10-23 15:59:02,423 INFO     errbot.core               Processing command 'help' with parameters '' from @CHANGE_ME
+2018-10-23 15:59:02,423 DEBUG    errbot.core               Triggering callback_message on Example
+2018-10-23 15:59:02,424 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2018-10-23 15:59:02,424 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2018-10-23 15:59:02,424 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter
+2018-10-23 15:59:02,424 DEBUG    errbot.flow               None matched.
+2018-10-23 15:59:02,425 DEBUG    errbot.core               Triggering callback_message on Health
+2018-10-23 15:59:02,435 DEBUG    errbot.core               Triggering callback_message on Utils
+2018-10-23 15:59:02,440 DEBUG    errbot.core               Triggering callback_message on Plugins
+2018-10-23 15:59:02,442 DEBUG    errbot.core               Triggering callback_message on ACLs
+2018-10-23 15:59:02,442 DEBUG    errbot.core               Triggering callback_message on Backup
+2018-10-23 15:59:02,442 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2018-10-23 15:59:02,442 DEBUG    errbot.core               Triggering callback_message on Flows
+2018-10-23 15:59:02,442 DEBUG    errbot.flow               None matched.
+2018-10-23 15:59:02,442 DEBUG    errbot.core               Triggering callback_message on TextCmds
+2018-10-23 15:59:02,442 DEBUG    errbot.flow               Test if the command help is an auto-trigger for any flow ...
+2018-10-23 15:59:02,442 DEBUG    errbot.core               Triggering callback_message on Help
+2018-10-23 15:59:25,398 DEBUG    errbot.core               *** frm = @CHANGE_ME
+2018-10-23 15:59:25,398 DEBUG    errbot.core               *** username = CHANGE_ME
+2018-10-23 15:59:25,398 DEBUG    errbot.core               *** text = helllo
+2018-10-23 15:59:25,399 DEBUG    errbot.core               Triggering callback_message on Example
+2018-10-23 15:59:25,399 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2018-10-23 15:59:25,399 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter
+2018-10-23 15:59:25,399 DEBUG    errbot.core               Triggering callback_message on Health
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on Utils
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on Plugins
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on ACLs
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on Backup
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on Flows
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on TextCmds
+2018-10-23 15:59:25,400 DEBUG    errbot.core               Triggering callback_message on Help
+2018-10-23 15:59:29,318 DEBUG    errbot.core               *** frm = @CHANGE_ME
+2018-10-23 15:59:29,318 DEBUG    errbot.core               *** username = CHANGE_ME
+2018-10-23 15:59:29,318 DEBUG    errbot.core               *** text = oi
+2018-10-23 15:59:29,319 DEBUG    errbot.core               Triggering callback_message on Example
+2018-10-23 15:59:29,319 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2018-10-23 15:59:29,319 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter
+2018-10-23 15:59:29,319 DEBUG    errbot.core               Triggering callback_message on Health
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on Utils
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on Plugins
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on ACLs
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on Backup
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on Flows
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on TextCmds
+2018-10-23 15:59:29,320 DEBUG    errbot.core               Triggering callback_message on Help
+2018-10-23 15:59:32,002 DEBUG    errbot.core               *** frm = @CHANGE_ME
+2018-10-23 15:59:32,003 DEBUG    errbot.core               *** username = CHANGE_ME
+2018-10-23 15:59:32,003 DEBUG    errbot.core               *** text = exit
+2018-10-23 15:59:32,003 DEBUG    errbot.core               Triggering callback_message on Example
+2018-10-23 15:59:32,004 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2018-10-23 15:59:32,004 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter
+2018-10-23 15:59:32,004 DEBUG    errbot.core               Triggering callback_message on Health
+2018-10-23 15:59:32,004 DEBUG    errbot.core               Triggering callback_message on Utils
+2018-10-23 15:59:32,005 DEBUG    errbot.core               Triggering callback_message on Plugins
+2018-10-23 15:59:32,005 DEBUG    errbot.core               Triggering callback_message on ACLs
+2018-10-23 15:59:32,005 DEBUG    errbot.core               Triggering callback_message on Backup
+2018-10-23 15:59:32,005 DEBUG    errbot.core               Triggering callback_message on Flows
+2018-10-23 15:59:32,005 DEBUG    errbot.core               Triggering callback_message on TextCmds
+2018-10-23 15:59:32,005 DEBUG    errbot.core               Triggering callback_message on Help
+2018-10-23 15:59:33,427 DEBUG    errbot.core               Triggering callback_presence on Example
+2018-10-23 15:59:33,428 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2018-10-23 15:59:33,428 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter
+2018-10-23 15:59:33,428 DEBUG    errbot.core               Triggering callback_presence on Health
+2018-10-23 15:59:33,428 DEBUG    errbot.core               Triggering callback_presence on Utils
+2018-10-23 15:59:33,428 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2018-10-23 15:59:33,428 DEBUG    errbot.core               Triggering callback_presence on ACLs
+2018-10-23 15:59:33,429 DEBUG    errbot.core               Triggering callback_presence on Backup
+2018-10-23 15:59:33,429 DEBUG    errbot.core               Triggering callback_presence on Flows
+2018-10-23 15:59:33,429 DEBUG    errbot.core               Triggering callback_presence on TextCmds
+2018-10-23 15:59:33,429 DEBUG    errbot.core               Triggering callback_presence on Help
+2018-10-23 15:59:33,429 DEBUG    errbot.backends.text      Trigger disconnect callback
+2018-10-23 15:59:33,429 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2018-10-23 15:59:33,434 DEBUG    errbot.storage            Closed storage 'TextCmds'
+2018-10-23 15:59:33,435 DEBUG    errbot.storage            Closed storage 'Example'
+2018-10-23 15:59:33,436 DEBUG    errbot.storage            Closed storage 'Health'
+2018-10-23 15:59:33,436 DEBUG    errbot.storage            Closed storage 'ACLs'
+2018-10-23 15:59:33,437 DEBUG    errbot.core               Removing command filter: acls
+2018-10-23 15:59:33,437 DEBUG    errbot.storage            Closed storage 'CommandNotFoundFilter'
+2018-10-23 15:59:33,438 DEBUG    errbot.core               Removing command filter: cnf_filter
+2018-10-23 15:59:33,438 DEBUG    errbot.storage            Closed storage 'Flows'
+2018-10-23 15:59:33,439 DEBUG    errbot.storage            Closed storage 'Help'
+2018-10-23 15:59:33,440 DEBUG    errbot.storage            Closed storage 'Utils'
+2018-10-23 15:59:33,441 DEBUG    errbot.storage            Closed storage 'Plugins'
+2018-10-23 15:59:33,442 DEBUG    errbot.storage            Closed storage 'Backup'
+2018-10-23 15:59:33,443 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2018-10-23 15:59:33,443 DEBUG    errbot.backends.text      Trigger shutdown
+2018-10-23 15:59:33,444 DEBUG    errbot.storage            Closed storage 'text_backend'
+2018-10-23 15:59:33,444 INFO     errbot.plugin_manager     Shutdown.
+2018-10-23 15:59:33,444 DEBUG    errbot.storage            Closed storage 'core'
+2018-10-23 15:59:33,444 INFO     errbot.plugin_manager     Bye.
+2018-10-23 15:59:33,445 DEBUG    errbot.storage            Closed storage 'repomgr'
+2018-10-23 15:59:33,445 INFO     errbot.cli                Process exiting
+2018-10-23 16:02:27,519 INFO     errbot.specific_plugin_manager storage search paths {'/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/storage'}
+2018-10-23 16:02:27,521 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-10-23 16:02:27,521 INFO     errbot.specific_plugin_manager 	     Shelf  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/storage/shelf.py)
+2018-10-23 16:02:27,522 INFO     errbot.specific_plugin_manager 	    Memory  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/storage/memory.py)
+2018-10-23 16:02:27,522 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-10-23 16:02:27,522 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2018-10-23 16:02:27,523 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2018-10-23 16:02:27,524 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2018-10-23 16:02:27,524 DEBUG    errbot.storage            Opening storage 'repomgr'
+2018-10-23 16:02:27,524 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/repomgr.db
+2018-10-23 16:02:27,525 DEBUG    errbot.storage            Opening storage 'core'
+2018-10-23 16:02:27,525 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/core.db
+2018-10-23 16:02:27,527 INFO     errbot.specific_plugin_manager backends search paths {'/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends'}
+2018-10-23 16:02:27,531 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-10-23 16:02:27,531 INFO     errbot.specific_plugin_manager 	       IRC  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/irc.py)
+2018-10-23 16:02:27,531 INFO     errbot.specific_plugin_manager 	   Hipchat  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/hipchat.py)
+2018-10-23 16:02:27,531 INFO     errbot.specific_plugin_manager 	      Text  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/text.py)
+2018-10-23 16:02:27,531 INFO     errbot.specific_plugin_manager 	      XMPP  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/xmpp.py)
+2018-10-23 16:02:27,531 INFO     errbot.specific_plugin_manager 	   Graphic  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/graphic.py)
+2018-10-23 16:02:27,532 INFO     errbot.specific_plugin_manager 	      Null  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/null.py)
+2018-10-23 16:02:27,532 INFO     errbot.specific_plugin_manager 	      Test  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/test.py)
+2018-10-23 16:02:27,532 INFO     errbot.specific_plugin_manager 	     Slack  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/slack.py)
+2018-10-23 16:02:27,532 INFO     errbot.specific_plugin_manager 	  Telegram  (/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/backends/telegram_messenger.py)
+2018-10-23 16:02:27,532 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2018-10-23 16:02:27,532 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2018-10-23 16:02:27,534 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2018-10-23 16:02:27,605 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2018-10-23 16:02:27,605 DEBUG    errbot.core               ErrBot init.
+2018-10-23 16:02:27,605 DEBUG    errbot.backends.base      Backend init.
+2018-10-23 16:02:27,607 DEBUG    errbot.core               created a thread pool of size 10.
+2018-10-23 16:02:27,608 DEBUG    errbot.backends.text      Text Backend Init.
+2018-10-23 16:02:27,609 DEBUG    errbot.backends.text      Bot username set at @errbot.
+2018-10-23 16:02:27,615 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2018-10-23 16:02:27,617 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2018-10-23 16:02:27,621 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2018-10-23 16:02:27,622 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2018-10-23 16:02:27,622 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2018-10-23 16:02:27,623 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2018-10-23 16:02:27,623 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2018-10-23 16:02:27,624 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2018-10-23 16:02:27,635 DEBUG    errbot.core               Initializing backend storage
+2018-10-23 16:02:27,636 DEBUG    errbot.storage            Opening storage 'text_backend'
+2018-10-23 16:02:27,636 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/text_backend.db
+2018-10-23 16:02:27,638 DEBUG    errbot.plugin_manager     All plugin roots:
+2018-10-23 16:02:27,638 DEBUG    errbot.plugin_manager     -> /home/dbunadi/Documents/HAROBOT/plugins/err-example
+2018-10-23 16:02:27,638 DEBUG    errbot.plugin_manager     Add /home/dbunadi/Documents/HAROBOT/plugins/err-example to sys.path
+2018-10-23 16:02:27,638 DEBUG    errbot.plugin_manager     -> /home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins
+2018-10-23 16:02:27,638 DEBUG    errbot.plugin_manager     Add /home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins to sys.path
+2018-10-23 16:02:27,639 DEBUG    errbot.plugin_manager     /home/dbunadi/Documents/HAROBOT/plugins/err-example has no requirements.txt file
+2018-10-23 16:02:27,639 DEBUG    errbot.plugin_manager     /home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins has no requirements.txt file
+2018-10-23 16:02:27,646 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2018-10-23 16:02:27,738 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2018-10-23 16:02:27,739 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2018-10-23 16:02:27,740 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2018-10-23 16:02:27,743 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2018-10-23 16:02:27,743 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2018-10-23 16:02:27,744 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2018-10-23 16:02:27,745 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2018-10-23 16:02:27,746 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2018-10-23 16:02:27,748 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2018-10-23 16:02:27,783 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-10-23 16:02:27,783 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2018-10-23 16:02:27,784 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2018-10-23 16:02:27,785 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2018-10-23 16:02:27,786 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2018-10-23 16:02:27,786 INFO     errbot.core               Activate internal commands
+2018-10-23 16:02:27,787 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-10-23 16:02:27,787 INFO     errbot.plugin_manager     Activate plugin: Example
+2018-10-23 16:02:27,787 DEBUG    errbot.plugin_manager     Plugin Example has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,787 INFO     errbot.plugin_manager     Activating Example with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,788 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /home/dbunadi/Documents/HAROBOT/plugins/err-example/templates]
+2018-10-23 16:02:27,788 DEBUG    errbot.botplugin          Init storage for Example
+2018-10-23 16:02:27,788 DEBUG    errbot.storage            Opening storage 'Example'
+2018-10-23 16:02:27,788 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Example.db
+2018-10-23 16:02:27,788 DEBUG    errbot.core               Adding command : tryme -> tryme
+2018-10-23 16:02:27,788 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2018-10-23 16:02:27,788 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-10-23 16:02:27,789 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,789 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,789 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,789 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2018-10-23 16:02:27,789 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-10-23 16:02:27,789 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-10-23 16:02:27,789 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,789 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,789 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,789 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2018-10-23 16:02:27,789 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2018-10-23 16:02:27,790 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/ChatRoom.db
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_create -> room_create
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_join -> room_join
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_list -> room_list
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2018-10-23 16:02:27,790 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2018-10-23 16:02:27,790 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-10-23 16:02:27,790 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-10-23 16:02:27,790 DEBUG    errbot.plugin_manager     Plugin CommandNotFoundFilter has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,791 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,791 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,791 DEBUG    errbot.botplugin          Init storage for CommandNotFoundFilter
+2018-10-23 16:02:27,791 DEBUG    errbot.storage            Opening storage 'CommandNotFoundFilter'
+2018-10-23 16:02:27,791 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/CommandNotFoundFilter.db
+2018-10-23 16:02:27,791 DEBUG    errbot.core               Adding command filter: cnf_filter
+2018-10-23 16:02:27,791 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-10-23 16:02:27,791 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-10-23 16:02:27,791 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,792 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,792 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,792 DEBUG    errbot.botplugin          Init storage for Health
+2018-10-23 16:02:27,792 DEBUG    errbot.storage            Opening storage 'Health'
+2018-10-23 16:02:27,792 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Health.db
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : restart -> restart
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : status -> status
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : status_load -> status_load
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2018-10-23 16:02:27,792 DEBUG    errbot.core               Adding command : uptime -> uptime
+2018-10-23 16:02:27,792 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-10-23 16:02:27,793 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-10-23 16:02:27,793 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,793 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,793 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,793 DEBUG    errbot.botplugin          Init storage for Utils
+2018-10-23 16:02:27,793 DEBUG    errbot.storage            Opening storage 'Utils'
+2018-10-23 16:02:27,793 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Utils.db
+2018-10-23 16:02:27,793 DEBUG    errbot.core               Adding command : echo -> echo
+2018-10-23 16:02:27,793 DEBUG    errbot.core               Adding command : history -> history
+2018-10-23 16:02:27,793 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2018-10-23 16:02:27,793 DEBUG    errbot.core               Adding command : render_test -> render_test
+2018-10-23 16:02:27,793 DEBUG    errbot.core               Adding command : whoami -> whoami
+2018-10-23 16:02:27,794 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-10-23 16:02:27,794 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-10-23 16:02:27,794 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,794 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,794 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,794 DEBUG    errbot.botplugin          Init storage for Plugins
+2018-10-23 16:02:27,794 DEBUG    errbot.storage            Opening storage 'Plugins'
+2018-10-23 16:02:27,794 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Plugins.db
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : repos -> repos
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2018-10-23 16:02:27,795 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2018-10-23 16:02:27,795 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-10-23 16:02:27,795 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-10-23 16:02:27,795 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,795 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,795 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,796 DEBUG    errbot.botplugin          Init storage for ACLs
+2018-10-23 16:02:27,796 DEBUG    errbot.storage            Opening storage 'ACLs'
+2018-10-23 16:02:27,796 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/ACLs.db
+2018-10-23 16:02:27,796 DEBUG    errbot.core               Adding command filter: acls
+2018-10-23 16:02:27,796 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-10-23 16:02:27,797 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-10-23 16:02:27,797 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,797 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,797 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,797 DEBUG    errbot.botplugin          Init storage for Backup
+2018-10-23 16:02:27,797 DEBUG    errbot.storage            Opening storage 'Backup'
+2018-10-23 16:02:27,797 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Backup.db
+2018-10-23 16:02:27,798 DEBUG    errbot.core               Adding command : backup -> backup
+2018-10-23 16:02:27,798 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-10-23 16:02:27,798 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-10-23 16:02:27,798 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,798 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,798 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,798 DEBUG    errbot.botplugin          Init storage for Flows
+2018-10-23 16:02:27,799 DEBUG    errbot.storage            Opening storage 'Flows'
+2018-10-23 16:02:27,799 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Flows.db
+2018-10-23 16:02:27,799 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2018-10-23 16:02:27,799 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2018-10-23 16:02:27,799 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2018-10-23 16:02:27,799 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2018-10-23 16:02:27,799 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2018-10-23 16:02:27,799 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2018-10-23 16:02:27,799 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-10-23 16:02:27,800 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-10-23 16:02:27,800 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,800 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,800 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,800 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-10-23 16:02:27,800 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-10-23 16:02:27,800 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-10-23 16:02:27,801 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-10-23 16:02:27,801 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-10-23 16:02:27,801 DEBUG    errbot.plugin_manager     Plugin TextCmds has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,801 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,801 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,801 DEBUG    errbot.botplugin          Init storage for TextCmds
+2018-10-23 16:02:27,801 DEBUG    errbot.storage            Opening storage 'TextCmds'
+2018-10-23 16:02:27,801 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/TextCmds.db
+2018-10-23 16:02:27,801 DEBUG    errbot.core               Adding command : asadmin -> asadmin
+2018-10-23 16:02:27,801 DEBUG    errbot.core               Adding command : asuser -> asuser
+2018-10-23 16:02:27,801 DEBUG    errbot.core               Adding command : inperson -> inperson
+2018-10-23 16:02:27,801 DEBUG    errbot.core               Adding command : inroom -> inroom
+2018-10-23 16:02:27,802 DEBUG    errbot.core               Adding command : ml -> ml
+2018-10-23 16:02:27,802 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-10-23 16:02:27,802 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-10-23 16:02:27,802 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-23 16:02:27,802 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-23 16:02:27,802 DEBUG    errbot.templating         Templates directory found for this plugin [/home/dbunadi/.local/share/virtualenvs/HAROBOT-H2OK9EiM/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2018-10-23 16:02:27,802 DEBUG    errbot.botplugin          Init storage for Help
+2018-10-23 16:02:27,803 DEBUG    errbot.storage            Opening storage 'Help'
+2018-10-23 16:02:27,803 DEBUG    errbot.storage.shelf      Open shelf storage /home/dbunadi/Documents/HAROBOT/data/Help.db
+2018-10-23 16:02:27,803 DEBUG    errbot.core               Adding command : about -> about
+2018-10-23 16:02:27,803 DEBUG    errbot.core               Adding command : apropos -> apropos
+2018-10-23 16:02:27,803 DEBUG    errbot.core               Adding command : help -> help
+2018-10-23 16:02:27,803 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-10-23 16:02:27,803 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2018-10-23 16:02:27,803 INFO     errbot.core               
+2018-10-23 16:02:27,803 INFO     errbot.core               Notifying connection to all the plugins...
+2018-10-23 16:02:27,803 DEBUG    errbot.core               Trigger callback_connect on Example
+2018-10-23 16:02:27,803 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2018-10-23 16:02:27,804 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on CommandNotFoundFilter
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on Health
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on Utils
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on Backup
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on Flows
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on TextModeCmds
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Trigger callback_connect on Help
+2018-10-23 16:02:27,804 INFO     errbot.core               Plugin activation done.
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Example
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Health
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Utils
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on ACLs
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Backup
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Flows
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on TextCmds
+2018-10-23 16:02:27,804 DEBUG    errbot.core               Triggering callback_presence on Help
+2018-10-23 16:02:41,797 DEBUG    errbot.core               *** frm = @CHANGE_ME
+2018-10-23 16:02:41,798 DEBUG    errbot.core               *** username = CHANGE_ME
+2018-10-23 16:02:41,798 DEBUG    errbot.core               *** text = !tryme
+2018-10-23 16:02:41,798 DEBUG    errbot.plugins.ACLs       Check tryme for ACLs.
+2018-10-23 16:02:41,798 INFO     errbot.plugins.ACLs       Matching ACL {} against username @CHANGE_ME for command Example:tryme
+2018-10-23 16:02:41,799 INFO     errbot.plugins.ACLs       Check if tryme is admin only command.
+2018-10-23 16:02:41,799 INFO     errbot.core               Processing command 'tryme' with parameters '' from @CHANGE_ME
+2018-10-23 16:02:41,800 DEBUG    errbot.core               Triggering callback_message on Example
+2018-10-23 16:02:41,800 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2018-10-23 16:02:41,800 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter
+2018-10-23 16:02:41,801 DEBUG    errbot.core               Triggering callback_message on Health
+2018-10-23 16:02:41,801 DEBUG    errbot.core               Triggering callback_message on Utils
+2018-10-23 16:02:41,801 DEBUG    errbot.core               Triggering callback_message on Plugins
+2018-10-23 16:02:41,801 DEBUG    errbot.core               Triggering callback_message on ACLs
+2018-10-23 16:02:41,801 DEBUG    errbot.core               Triggering callback_message on Backup
+2018-10-23 16:02:41,801 DEBUG    errbot.core               Triggering callback_message on Flows
+2018-10-23 16:02:41,802 DEBUG    errbot.core               Triggering callback_message on TextCmds
+2018-10-23 16:02:41,802 DEBUG    errbot.core               Triggering callback_message on Help
+2018-10-23 16:02:41,802 DEBUG    errbot.flow               Test if the command tryme is a trigger for an inflight flow ...
+2018-10-23 16:02:41,803 DEBUG    errbot.flow               None matched.
+2018-10-23 16:02:41,804 DEBUG    errbot.flow               Test if the command tryme is a trigger for an inflight flow ...
+2018-10-23 16:02:41,805 DEBUG    errbot.flow               None matched.
+2018-10-23 16:02:41,805 DEBUG    errbot.flow               Test if the command tryme is an auto-trigger for any flow ...
